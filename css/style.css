@@ -8701,6 +8701,15 @@ h1, h2, h3, h4, h5,
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     border-radius: 50%; }
+  .menus .menu-imgfix {
+    margin-right: 20px;
+    width: 100px;
+    height: 100px;
+	transform: rotate(90deg);
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%; }
   .menus:hover {
     border-bottom: 1px dashed black; }
     .menus:hover .text .one-forth .price {
@@ -9582,3 +9591,9 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+
+/* CSS used here will be applied after bootstrap.css */
+.jumbotron{
+  position: relative;
+  z-index:-2;
+}
