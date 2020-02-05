@@ -67,6 +67,8 @@
 	    }
 		});
 		$('.carousel-testimony').owlCarousel({
+			mouseDrag:false,
+		    touchDrag:true,
 			center: true,
 			loop: true,
 			items:1,
