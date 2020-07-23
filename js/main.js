@@ -8,7 +8,7 @@
 	"use strict";
 
 	$(window).stellar({
-    responsive: false,
+    responsive: true,
     parallaxBackgrounds: true,
     parallaxElements: true,
     horizontalScrolling: false,
