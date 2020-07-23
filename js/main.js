@@ -9,7 +9,7 @@
 
 	$(window).stellar({
     responsive: true,
-    parallaxBackgrounds: false,
+    parallaxBackgrounds: true,
     parallaxElements: true,
     horizontalScrolling: false,
     hideDistantElements: false,
